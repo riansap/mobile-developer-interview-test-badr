@@ -65,18 +65,19 @@ expressSwagger(configSwagger)
 
 app.use('/', indexRouter)
 
-app.use(function (req, res, next) {
+app.use(function (req, res) {
   res.status(404).json({ message: 'Not found' })
   // next(createError(404))
 })
 
 // error handler
-app.use(function (err, req, res, next) {
+app.use(function (err, req, res) {
   // set locals, only providing error in development
   const isDev = req.app.get('env') === 'development'
   res.locals.error = err
   const message = isDev ? (err.stack || err.message ) : (err.message || 'Internal server error')
   return res.status(err.status || 500).json({ message })
 })
+
 
 export default app
