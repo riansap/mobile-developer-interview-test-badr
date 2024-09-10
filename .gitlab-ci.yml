@@ -21,6 +21,8 @@ stages:
 
 sonar-scanner-job:
   stage: sonar-scanner
+  tags:
+    - sonar
   image: sonarsource/sonar-scanner-cli:latest
   script:
     - sonar-scanner
