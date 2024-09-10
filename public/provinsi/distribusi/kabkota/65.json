@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 65,
+            "PROVINSI": "KALIMANTAN UTARA",
+            "KODE_KABKOTA": 6571,
+            "KABKOTA": "KOTA TARAKAN",
+            "JUMLAH_SASARAN": 4600
+          },
+          {
+            "KODE_PROV": 65,
+            "PROVINSI": "KALIMANTAN UTARA",
+            "KODE_KABKOTA": 6501,
+            "KABKOTA": "KAB. BULUNGAN",
+            "JUMLAH_SASARAN": 3000
+          }
+	]
+}

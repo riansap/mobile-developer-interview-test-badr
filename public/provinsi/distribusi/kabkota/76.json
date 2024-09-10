@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 76,
+            "PROVINSI": "SULAWESI BARAT",
+            "KODE_KABKOTA": 7602,
+            "KABKOTA": "KAB. MAMUJU",
+            "JUMLAH_SASARAN": 5080
+          },
+          {
+            "KODE_PROV": 76,
+            "PROVINSI": "SULAWESI BARAT",
+            "KODE_KABKOTA": 7605,
+            "KABKOTA": "KAB. MAJENE",
+            "JUMLAH_SASARAN": 2800
+          }
+	]
+}

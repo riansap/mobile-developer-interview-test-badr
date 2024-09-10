@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+        {
+            "KODE_PROV": 11,
+            "PROVINSI": "ACEH",
+            "KODE_KABKOTA": 1171,
+            "KABKOTA": "KOTA BANDA ACEH",
+            "JUMLAH_SASARAN": 12760
+        },
+        {
+            "KODE_PROV": 11,
+            "PROVINSI": "ACEH",
+            "KODE_KABKOTA": 1106,
+            "KABKOTA": "KAB. ACEH BESAR",
+            "JUMLAH_SASARAN": 5080
+        }
+	]
+}

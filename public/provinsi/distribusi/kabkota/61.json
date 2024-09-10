@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 61,
+            "PROVINSI": "KALIMANTAN BARAT",
+            "KODE_KABKOTA": 6171,
+            "KABKOTA": "KOTA PONTIANAK",
+            "JUMLAH_SASARAN": 10400
+          },
+          {
+            "KODE_PROV": 61,
+            "PROVINSI": "KALIMANTAN BARAT",
+            "KODE_KABKOTA": 6112,
+            "KABKOTA": "KAB. KUBU RAYA",
+            "JUMLAH_SASARAN": 3480
+          },
+          {
+            "KODE_PROV": 61,
+            "PROVINSI": "KALIMANTAN BARAT",
+            "KODE_KABKOTA": 6102,
+            "KABKOTA": "KAB. MEMPAWAH",
+            "JUMLAH_SASARAN": 2000
+          }
+	]
+}

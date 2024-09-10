@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 34,
+            "PROVINSI": "D I  YOGYAKARTA",
+            "KODE_KABKOTA": 3471,
+            "KABKOTA": "KOTA YOGYAKARTA",
+            "JUMLAH_SASARAN": 9800
+          },
+          {
+            "KODE_PROV": 34,
+            "PROVINSI": "DAERAH ISTIMEWA YOGYAKARTA",
+            "KODE_KABKOTA": 3404,
+            "KABKOTA": "KAB. SLEMAN",
+            "JUMLAH_SASARAN": 12380
+          }
+	]
+}

@@ -1,0 +1,108 @@
+<%
+    const TRANSACTION_TYPE = {
+        STOCK_COUNT: 1,
+        ISSUES: 2,
+        RECEIPTS: 3,
+        DISCARDS: 4
+    }
+
+    const LOGISTIMO_TRANSACTION_TYPE = {
+        [TRANSACTION_TYPE.ISSUES]: 'issue',
+        [TRANSACTION_TYPE.STOCK_COUNT]: 'stock count' ,
+        [TRANSACTION_TYPE.RECEIPTS]: 'receipt' ,
+        [TRANSACTION_TYPE.DISCARDS]: 'discards'
+    }
+
+%>
+
+<html>
+
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+        table {
+            overflow-x: scroll;
+        }
+        #datatable {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #datatable td, #datatable th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #datatable tr:nth-child(even){background-color: #f2f2f2;}
+
+        #datatable tr:hover {background-color: #ddd;}
+
+        #datatable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<h1><%= title %></h1>
+<table id="datatable">
+    <thead>
+    <tr>
+        <th>No.</th>
+        <th>Nama Vendor</th>
+        <th>Nama Customer</th>
+        <th>Nama Material (unit)</th>
+        <th>Change Qty</th>
+        <th>Opening Qty</th>
+        <th>Closing Qty</th>
+        <th>Type</th>
+        <th>Stocks (batch:stock)</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% if (Array.isArray(data) && data.length > 0) { %>
+        <% for (var i = 0; i < data.length; i++) {
+            const transaction = data[i].dataValues;
+            const vendor = !!transaction.entity === true ? transaction.entity : {}
+            const customer = !!transaction.customer === true ? transaction.customer : {}
+            const material = !!transaction.material === true ? transaction.material : {}
+            const stock = !!transaction.stock === true ? transaction.stock : {}
+            const batch = !!stock.batch === true ? stock.batch : {}
+            const batchName = !!batch.code === true ? batch.code : 'No batch'
+            const vendorName = vendor.name || ''
+            const customerName = customer.name || ''
+            const materialName = material.name || ''
+            const transactionType = !!transaction.transaction_type_id === true ? LOGISTIMO_TRANSACTION_TYPE[transaction.transaction_type_id] : ''
+            const openingQty = transaction.opening_qty || 0
+            const changeQty = transaction.change_qty || 0
+            let closingQty = 0
+            if (transactionType === 'issue' || transactionType === 'discard') {
+              closingQty = openingQty - changeQty
+            } else if (transactionType === 'stock count' || transactionType === 'receipt') {
+              closingQty = openingQty + changeQty
+            }
+        %>
+        <tr>
+            <td><%= Number(i+1) %></td>
+            <td><%= vendorName %></td>
+            <td><%= customerName %></td>
+            <td><%= materialName %></td>
+            <td><%= changeQty %></td>
+            <td><%= openingQty %></td>
+            <td><%= closingQty %></td>
+            <td><%= transactionType %></td>
+            <td><%= batchName %>: <%= stock.qty %></td>
+        </tr>
+        <% } %>
+    <% } %>
+    </tbody>
+</table>
+</body>
+
+</html>

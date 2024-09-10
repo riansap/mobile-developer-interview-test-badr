@@ -1,0 +1,54 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 32,
+            "PROVINSI": "JAWA BARAT",
+            "KODE_KABKOTA": 3273,
+            "KABKOTA": "KOTA BANDUNG",
+            "JUMLAH_SASARAN": 25000
+          },
+          {
+            "KODE_PROV": 32,
+            "PROVINSI": "JAWA BARAT",
+            "KODE_KABKOTA": 3275,
+            "KABKOTA": "KOTA BEKASI",
+            "JUMLAH_SASARAN": 14060
+          },
+          {
+            "KODE_PROV": 32,
+            "PROVINSI": "JAWA BARAT",
+            "KODE_KABKOTA": 3271,
+            "KABKOTA": "KOTA BOGOR",
+            "JUMLAH_SASARAN": 9160
+          },
+          {
+            "KODE_PROV": 32,
+            "PROVINSI": "JAWA BARAT",
+            "KODE_KABKOTA": 3276,
+            "KABKOTA": "KOTA DEPOK",
+            "JUMLAH_SASARAN": 11140
+          },
+          {
+            "KODE_PROV": 32,
+            "PROVINSI": "JAWA BARAT",
+            "KODE_KABKOTA": 3217,
+            "KABKOTA": "KAB. BANDUNG BARAT",
+            "JUMLAH_SASARAN": 3960
+          },
+          {
+            "KODE_PROV": 32,
+            "PROVINSI": "JAWA BARAT",
+            "KODE_KABKOTA": 3204,
+            "KABKOTA": "KAB. BANDUNG",
+            "JUMLAH_SASARAN": 7560
+          },
+          {
+            "KODE_PROV": 32,
+            "PROVINSI": "JAWA BARAT",
+            "KODE_KABKOTA": 3277,
+            "KABKOTA": "KOTA CIMAHI",
+            "JUMLAH_SASARAN": 3880
+          }
+	]
+}

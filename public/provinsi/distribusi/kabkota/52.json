@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 52,
+            "PROVINSI": "NUSA TENGGARA BARAT",
+            "KODE_KABKOTA": 5271,
+            "KABKOTA": "KOTA MATARAM",
+            "JUMLAH_SASARAN": 14360
+          },
+          {
+            "KODE_PROV": 52,
+            "PROVINSI": "NUSA TENGGARA BARAT",
+            "KODE_KABKOTA": 5201,
+            "KABKOTA": "KAB. LOMBOK BARAT",
+            "JUMLAH_SASARAN": 4080
+          }
+	]
+}

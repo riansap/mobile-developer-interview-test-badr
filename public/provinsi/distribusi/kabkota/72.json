@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 72,
+            "PROVINSI": "SULAWESI TENGAH",
+            "KODE_KABKOTA": 7271,
+            "KABKOTA": "KOTA PALU",
+            "JUMLAH_SASARAN": 11480
+          },
+          {
+            "KODE_PROV": 72,
+            "PROVINSI": "SULAWESI TENGAH",
+            "KODE_KABKOTA": 7202,
+            "KABKOTA": "KAB. POSO",
+            "JUMLAH_SASARAN": 4120
+          },
+          {
+            "KODE_PROV": 72,
+            "PROVINSI": "SULAWESI TENGAH",
+            "KODE_KABKOTA": 7203,
+            "KABKOTA": "KAB. DONGGALA",
+            "JUMLAH_SASARAN": 2840
+          }
+	]
+}

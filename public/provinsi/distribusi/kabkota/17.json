@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 17,
+            "PROVINSI": "BENGKULU",
+            "KODE_KABKOTA": 1771,
+            "KABKOTA": "KOTA BENGKULU",
+            "JUMLAH_SASARAN": 9040
+          },
+          {
+            "KODE_PROV": 17,
+            "PROVINSI": "BENGKULU",
+            "KODE_KABKOTA": 1705,
+            "KABKOTA": "KAB. SELUMA",
+            "JUMLAH_SASARAN": 2440
+          },
+          {
+            "KODE_PROV": 17,
+            "PROVINSI": "BENGKULU",
+            "KODE_KABKOTA": 1709,
+            "KABKOTA": "KAB. BENGKULU TENGAH",
+            "JUMLAH_SASARAN": 1760
+          }
+	]
+}

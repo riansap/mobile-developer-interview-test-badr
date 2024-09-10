@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 13,
+            "PROVINSI": "SUMATERA BARAT",
+            "KODE_KABKOTA": 1371,
+            "KABKOTA": "KOTA PADANG",
+            "JUMLAH_SASARAN": 18680
+          },
+          {
+            "KODE_PROV": 13,
+            "PROVINSI": "SUMATERA BARAT",
+            "KODE_KABKOTA": 1301,
+            "KABKOTA": "KAB. PESISIR SELATAN",
+            "JUMLAH_SASARAN": 3640
+          }
+	]
+}

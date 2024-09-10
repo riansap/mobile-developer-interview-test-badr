@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 15,
+            "PROVINSI": "JAMBI",
+            "KODE_KABKOTA": 1571,
+            "KABKOTA": "KOTA JAMBI",
+            "JUMLAH_SASARAN": 14240
+          },
+          {
+            "KODE_PROV": 15,
+            "PROVINSI": "JAMBI",
+            "KODE_KABKOTA": 1505,
+            "KABKOTA": "KAB.  MUARO JAMBI",
+            "JUMLAH_SASARAN": 3400
+          }
+	]
+}

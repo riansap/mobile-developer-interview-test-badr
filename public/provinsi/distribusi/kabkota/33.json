@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 33,
+            "PROVINSI": "JAWA TENGAH",
+            "KODE_KABKOTA": 3374,
+            "KABKOTA": "KOTA SEMARANG",
+            "JUMLAH_SASARAN": 38240
+          },
+          {
+            "KODE_PROV": 33,
+            "PROVINSI": "JAWA TENGAH",
+            "KODE_KABKOTA": 3322,
+            "KABKOTA": "KAB. SEMARANG",
+            "JUMLAH_SASARAN": 8000
+          },
+          {
+            "KODE_PROV": 33,
+            "PROVINSI": "JAWA TENGAH",
+            "KODE_KABKOTA": 3372,
+            "KABKOTA": "KOTA SURAKARTA",
+            "JUMLAH_SASARAN": 10620
+          }
+	]
+}

@@ -1,0 +1,22 @@
+version: "3"
+services:
+  smile-api:
+    container_name: smile-api
+    hostname: "smile-api"
+    # build: .
+    image: registry.badr.co.id/undp/smile-main-api:dev
+    ports:
+       - 6002:80
+    expose:
+        - 80
+    environment:
+        - TZ=Asia/Jakarta
+        - PORT=80
+        - NODE_ENV=development
+    user: "0"
+    env_file:
+      - .env
+networks:
+    default:
+        name: devel_network
+        external: true

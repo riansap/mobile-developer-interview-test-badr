@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 91,
+            "PROVINSI": "PAPUA",
+            "KODE_KABKOTA": 9171,
+            "KABKOTA": "KOTA JAYAPURA",
+            "JUMLAH_SASARAN": 7560
+          },
+          {
+            "KODE_PROV": 91,
+            "PROVINSI": "PAPUA",
+            "KODE_KABKOTA": 9103,
+            "KABKOTA": "KAB. JAYAPURA",
+            "JUMLAH_SASARAN": 2720
+          },
+          {
+            "KODE_PROV": 91,
+            "PROVINSI": "PAPUA",
+            "KODE_KABKOTA": 9109,
+            "KABKOTA": "KAB. MIMIKA",
+            "JUMLAH_SASARAN": 2320
+          }
+	]
+}

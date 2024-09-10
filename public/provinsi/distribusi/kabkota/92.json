@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 92,
+            "PROVINSI": "PAPUA BARAT",
+            "KODE_KABKOTA": 9202,
+            "KABKOTA": "KAB. MANOKWARI",
+            "JUMLAH_SASARAN": 4200
+          },
+          {
+            "KODE_PROV": 92,
+            "PROVINSI": "PAPUA BARAT",
+            "KODE_KABKOTA": 9271,
+            "KABKOTA": "KOTA SORONG",
+            "JUMLAH_SASARAN": 2600
+          },
+          {
+            "KODE_PROV": 92,
+            "PROVINSI": "PAPUA BARAT",
+            "KODE_KABKOTA": 9211,
+            "KABKOTA": "KAB. MANOKWARI SELATAN",
+            "JUMLAH_SASARAN": 360
+          }
+	]
+}

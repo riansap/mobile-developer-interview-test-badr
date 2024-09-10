@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 14,
+            "PROVINSI": "RIAU",
+            "KODE_KABKOTA": 1471,
+            "KABKOTA": "KOTA PEKANBARU",
+            "JUMLAH_SASARAN": 22400
+          },
+          {
+            "KODE_PROV": 14,
+            "PROVINSI": "RIAU",
+            "KODE_KABKOTA": 1401,
+            "KABKOTA": "KAB. KAMPAR",
+            "JUMLAH_SASARAN": 4760
+          },
+          {
+            "KODE_PROV": 14,
+            "PROVINSI": "RIAU",
+            "KODE_KABKOTA": 1405,
+            "KABKOTA": "KAB. PELALAWAN",
+            "JUMLAH_SASARAN": 3560
+          }
+	]
+}

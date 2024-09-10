@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 16,
+            "PROVINSI": "SUMATERA SELATAN",
+            "KODE_KABKOTA": 1671,
+            "KABKOTA": "KOTA PALEMBANG",
+            "JUMLAH_SASARAN": 29360
+          },
+          {
+            "KODE_PROV": 16,
+            "PROVINSI": "SUMATERA SELATAN",
+            "KODE_KABKOTA": 1602,
+            "KABKOTA": "KAB. OGAN KOMERING ILIR",
+            "JUMLAH_SASARAN": 6400
+          }
+	]
+}

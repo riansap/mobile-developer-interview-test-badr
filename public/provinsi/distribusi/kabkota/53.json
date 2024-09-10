@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 53,
+            "PROVINSI": "NUSA TENGGARA TIMUR",
+            "KODE_KABKOTA": 5371,
+            "KABKOTA": "KOTA KUPANG",
+            "JUMLAH_SASARAN": 7440
+          },
+          {
+            "KODE_PROV": 53,
+            "PROVINSI": "NUSA TENGGARA TIMUR",
+            "KODE_KABKOTA": 5301,
+            "KABKOTA": "KAB. KUPANG",
+            "JUMLAH_SASARAN": 3120
+          }
+	]
+}

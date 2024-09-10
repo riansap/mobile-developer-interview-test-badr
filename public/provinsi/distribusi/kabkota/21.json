@@ -1,0 +1,26 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 21,
+            "PROVINSI": "KEPULAUAN RIAU",
+            "KODE_KABKOTA": 2171,
+            "KABKOTA": "KOTA BATAM",
+            "JUMLAH_SASARAN": 11120
+          },
+          {
+            "KODE_PROV": 21,
+            "PROVINSI": "KEPULAUAN RIAU",
+            "KODE_KABKOTA": 2172,
+            "KABKOTA": "KOTA TANJUNG PINANG",
+            "JUMLAH_SASARAN": 5880
+          },
+          {
+            "KODE_PROV": 21,
+            "PROVINSI": "KEPULAUAN RIAU",
+            "KODE_KABKOTA": 2101,
+            "KABKOTA": "KAB. BINTAN",
+            "JUMLAH_SASARAN": 2680
+          }
+	]
+}

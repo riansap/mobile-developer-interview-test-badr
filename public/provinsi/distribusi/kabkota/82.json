@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 82,
+            "PROVINSI": "MALUKU UTARA",
+            "KODE_KABKOTA": 8271,
+            "KABKOTA": "KOTA TERNATE",
+            "JUMLAH_SASARAN": 3560
+          },
+          {
+            "KODE_PROV": 82,
+            "PROVINSI": "MALUKU UTARA",
+            "KODE_KABKOTA": 8272,
+            "KABKOTA": "KOTA TIDORE KEPULAUAN",
+            "JUMLAH_SASARAN": 2280
+          }
+	]
+}

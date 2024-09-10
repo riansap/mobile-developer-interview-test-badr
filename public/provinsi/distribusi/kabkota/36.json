@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 36,
+            "PROVINSI": "BANTEN",
+            "KODE_KABKOTA": 3673,
+            "KABKOTA": "KOTA SERANG",
+            "JUMLAH_SASARAN": 3380
+          },
+          {
+            "KODE_PROV": 36,
+            "PROVINSI": "BANTEN",
+            "KODE_KABKOTA": 3674,
+            "KABKOTA": "KOTA TANGERANG SELATAN",
+            "JUMLAH_SASARAN": 8920
+          }
+	]
+}

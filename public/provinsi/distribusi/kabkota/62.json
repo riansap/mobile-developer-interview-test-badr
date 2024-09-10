@@ -1,0 +1,19 @@
+{
+    "success": true,
+    "data": [
+          {
+            "KODE_PROV": 62,
+            "PROVINSI": "KALIMANTAN TENGAH",
+            "KODE_KABKOTA": 6271,
+            "KABKOTA": "KOTA PALANGKARAYA",
+            "JUMLAH_SASARAN": 7360
+          },
+          {
+            "KODE_PROV": 62,
+            "PROVINSI": "KALIMANTAN TENGAH",
+            "KODE_KABKOTA": 6211,
+            "KABKOTA": "KAB. PULANG PISAU",
+            "JUMLAH_SASARAN": 1920
+          }
+	]
+}

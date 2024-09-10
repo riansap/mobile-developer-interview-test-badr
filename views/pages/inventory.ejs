@@ -1,0 +1,82 @@
+<html>
+
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <style>
+        table {
+            overflow-x: scroll;
+        }
+        #datatable {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #datatable td, #datatable th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #datatable tr:nth-child(even){background-color: #f2f2f2;}
+
+        #datatable tr:hover {background-color: #ddd;}
+
+        #datatable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<h1><%= title %></h1>
+<table id="datatable">
+    <thead>
+    <tr>
+        <th>No.</th>
+        <th>Nama Entitas</th>
+        <th>Nama Material (unit)</th>
+        <th>Stocks (batch:stock)</th>
+        <th>Min.</th>
+        <th>Max.</th>
+        <th>Harga Retail</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% if (Array.isArray(data) && data.length > 0) { %>
+        <% for (var i = 0; i < data.length; i++) {
+            const inventory = data[i].dataValues;
+            const entity = !!inventory.entity === true ? inventory.entity : {}
+            const material = !!inventory.material === true ? inventory.material : {}
+            const stocks = !!inventory.stocks === true ? inventory.stocks : []
+            const entityName = entity.name || ''
+            const materialName = material.name || ''
+        %>
+        <tr style="border-bottom: 1px solid black" >
+            <td><%= Number(i+1) %></td>
+            <td><%= entityName %></td>
+            <td><%= materialName %></td>
+            <td>
+                <% for (var j = 0; j < stocks.length; j++) {
+                    const stock = stocks[j]
+                    const batch = !!stock.batch === true ? stock.batch : {}
+                    const batchName = !!batch.code === true ? batch.code : 'No batch'
+                %>
+                    <div><%= batchName %>: <%= stock.qty %></div>
+                <% } %>
+            </td>
+            <td><%= inventory.min %></td>
+            <td><%= inventory.max %></td>
+            <td><%= inventory.retailer_price %></td>
+        </tr>
+        <% } %>
+    <% } %>
+    </tbody>
+</table>
+</body>
+
+</html>
