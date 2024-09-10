@@ -16,10 +16,18 @@
 # This specific template is located at:
 # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
 
-stages:          # List of stages for jobs, and their order of execution
-  - scan
+stages:
+  - sonar-scanner
 
-build-job:       # This job runs in the build stage, which runs first.
-  stage: scan
+sonar-scanner-job:
+  stage: sonar-scanner
+  image: sonarsource/sonar-scanner-cli:latest
   script:
-    - sh /home/devel/sonar-scanner/bin/sonar-scanner
+    - sonar-scanner
+      -Dsonar.projectKey="Backend-Template"
+      -Dsonar.sources=.
+      -Dsonar.host.url=${SONAR_HOST_URL}
+      -Dsonar.login=${SONAR_TOKEN}
+  only:
+    - main
+    - merge_requests
