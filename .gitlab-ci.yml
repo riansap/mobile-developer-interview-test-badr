@@ -26,7 +26,7 @@ sonar-scanner-job:
   image: sonarsource/sonar-scanner-cli:latest
   script:
     - sonar-scanner
-      -Dsonar.projectKey="Backend-Template"
+      -Dsonar.projectKey=${SONAR_PROJECT_KEY}
       -Dsonar.sources=.
       -Dsonar.host.url=${SONAR_HOST_URL}
       -Dsonar.login=${SONAR_TOKEN}
