@@ -26,10 +26,10 @@ sonar-scanner-job:
   image: sonarsource/sonar-scanner-cli:latest
   script:
     - sonar-scanner
-      -Dsonar.projectKey=${SONAR_PROJECT_KEY}
+      -Dsonar.projectKey="BE-Rangga-Dermawan"
       -Dsonar.sources=.
-      -Dsonar.host.url=${SONAR_HOST_URL}
-      -Dsonar.login=${SONAR_TOKEN}
+      -Dsonar.host.url=https://sonar-recruitment.badr.co.id/
+      -Dsonar.login=sqb_c8d6538db563c83763637491c8db9b893033d71d
   only:
     - main
     - merge_requests
