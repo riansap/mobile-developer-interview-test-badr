@@ -26,7 +26,7 @@ sonar-scanner-job:
   image: sonarsource/sonar-scanner-cli:latest
   script:
     - sonar-scanner
-      -Dsonar.projectKey="BE-Rangga-Dermawan"
+      -Dsonar.projectKey="BE-Fikri-Fadhillah"
       -Dsonar.sources=.
       -Dsonar.host.url=${SONAR_HOST_URL}
       -Dsonar.login=${SONAR_TOKEN}
