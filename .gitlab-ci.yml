@@ -28,8 +28,8 @@ sonar-scanner-job:
     - sonar-scanner
       -Dsonar.projectKey="BE-Rangga-Dermawan"
       -Dsonar.sources=.
-      -Dsonar.host.url=https://sonar-recruitment.badr.co.id/
-      -Dsonar.login=sqb_c8d6538db563c83763637491c8db9b893033d71d
+      -Dsonar.host.url=${SONAR_HOST_URL}
+      -Dsonar.login=${SONAR_TOKEN}
   only:
     - main
     - merge_requests
