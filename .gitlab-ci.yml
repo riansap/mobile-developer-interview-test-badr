@@ -22,7 +22,7 @@ stages:
 sonar-scanner-job:
   stage: sonar-scanner
   tags:
-    - sonar
+    - sonar-recruitment
   image: sonarsource/sonar-scanner-cli:latest
   script:
     - sonar-scanner
