@@ -22,7 +22,7 @@ stages:
 sonar-scanner-job:
   stage: sonar-scanner
   tags:
-    - sonarqube
+    - sonar-runner
   image: sonarsource/sonar-scanner-cli:latest
   script:
     - sonar-scanner
