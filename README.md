@@ -28,8 +28,8 @@ git push -uf origin main
 
 ## Requirements
 1.	Follow the technology specification
-    a. Programming language: Javascript or Typescript
-    b. Framework: ExpressJS
+    + a. Programming language: Javascript or Typescript
+    + b. Framework: ExpressJS
 2.	Create RESTful API for features below:
     a. Get product list
         i. Each product has a name and price
