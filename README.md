@@ -10,28 +10,28 @@
 
 
 ## Requirements
-1.	Follow the technology specification
-    + Programming language: Javascript or Typescript
-    + Framework: ExpressJS
-2.	Create RESTful API for features below:
-    + Get product list
-        - Each product has a name and price
-    + View order list.
-        - Filter by customer name and order date
-        - Pagination
+1. Follow the design specification illustrated in this Figma file – [Mobile Challenge](https://www.figma.com/file/Ezal3fiTb6uPm8SQeH0GEu/Mobile-Challenge?type=design&node-id=0-1&mode=design&t=5V629Lxbexq3LKUl-0)
+2. Follow the technology specification
+    + Programming language: JavaScript or TypeScript
+    + Framework: React Native
+3. The mock API documentation can be found on the link - [API documentation](https://0efs20iwxr.apidog.io/)
+    + This is mock API, so it doesn’t work as intended. But the data requested and responded to, must be as documented.
+4. The features you need to work on are:
+    + View order list
+        - Including endless scroll pagination
     + Create a new order
-        - Should have at least 1 product
+        - After product is selected, the price will be displayed in price form
+        - Total product price is updated automatically whenever product and quantity change
     + Edit an order
         - Can’t change customer name
     + Delete an order
+        - Show your own confirmation dialog before delete an order
     + View detail order
-3.	Create database migration and seeder based on features above
-4.	For an overview of the features to be worked on, see this Figma file
-Submission
-1.	After you are done, create a merge request in your private repository and invite devbadrinteractive as the reviewer
-2.	The last merge request will be graded
-3.	In your pull request description, please add the following information:
+
+## Submission
+1. After you are done, commit your code
+2. In your commit message, please add the following information:
     + Full Name
     + Email Address
     + Feedback on this assessment
-
+4. Push your code into origin/main
