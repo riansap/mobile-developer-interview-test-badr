@@ -17,7 +17,17 @@
 # https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
 
 stages:
+  - build
   - sonar-scanner
+
+build-config:
+  stage: build
+  tags:
+    - build-props
+  image: sonarsource/sonar-scanner-cli:latest
+  script:
+    - echo "sonar.projectKey=${SONAR_PROJECT_KEY}" >> sonar-project.properties
+    - echo "sonar.projectName=${SONAR_PROJECT_KEY}" >> sonar-project.properties
 
 sonar-scanner-job:
   stage: sonar-scanner
