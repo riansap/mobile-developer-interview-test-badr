@@ -1,38 +1,65 @@
-# Challenge
+# 📱 Mobile_Rian - React Native App
 
-## Instructions
-1.	For preparations, you must have Badr Interactive Gitlab accounts to do this challenge.
-2.	Klik the visible project(which is has your name) in your account hompage.
-3.	Clone that project into your local machine.
-4.  Finish your challenge following the Requirement below.
-5.  Push your challenge into origin/main branch.
-6.  You are done, challenge has been submitted.
+Aplikasi **Mobile_Rian** adalah aplikasi mobile sederhana berbasis **React Native**, dikembangkan untuk keperluan interview Badr. Aplikasi ini dirancang dengan fokus pada kualitas UI/UX modern, pengambilan data melalui API, dan penggunaan library populer di ekosistem React Native.
 
+---
 
-## Requirements
-1. Follow the design specification illustrated in this Figma file – [Mobile Challenge](https://www.figma.com/file/Ezal3fiTb6uPm8SQeH0GEu/Mobile-Challenge?type=design&node-id=0-1&mode=design&t=5V629Lxbexq3LKUl-0)
-2. Follow the technology specification
-    + Programming language: JavaScript or TypeScript
-    + Framework: React Native
-3. The mock API documentation can be found on the link - [API documentation](https://0efs20iwxr.apidog.io/)
-    + This is mock API, so it doesn’t work as intended. But the data requested and responded to, must be as documented.
-4. The features you need to work on are:
-    + View order list
-        - Including endless scroll pagination
-    + Create a new order
-        - After product is selected, the price will be displayed in price form
-        - Total product price is updated automatically whenever product and quantity change
-    + Edit an order
-        - Can’t change customer name
-    + Delete an order
-        - Show your own confirmation dialog before delete an order
-    + View detail order
+## 🖼️ Screenshot Aplikasi
 
-## Submission
-1. After you are done, commit your code
-2. In your commit message, please add the following information:
-    + Full Name
-    + Email Address
-    + Feedback on this assessment
-4. Push your code into origin/main
-5. Do your best and good luck!
+<p align="center">
+  <img src="src/assets/screenshots/screenshot-iphone.png" alt="Screenshot Mobile_Rian" width="300" />
+</p>
+
+---
+
+## 🚀 Fitur Utama
+
+- Navigasi stack modern menggunakan `@react-navigation`
+- Dropdown input menggunakan `react-native-element-dropdown`
+- Menampilkan dan mengambil data menggunakan `axios` & `@tanstack/react-query`
+- Notifikasi toast ringan menggunakan `react-native-toast-message`
+- Styling responsif dengan `react-native-size-matters` dan `react-native-svg`
+- UI reaktif dan aman dengan `SafeAreaView` dan `gesture-handler`
+- Optimisasi performa dengan penggunaan `blur`, `safe-area`, dan `screens`
+
+---
+
+## 🛠️ Teknologi dan Library
+
+| Library                            | Deskripsi                                     |
+| ---------------------------------- | --------------------------------------------- |
+| **React Native 0.77.0**            | Framework utama pengembangan aplikasi mobile  |
+| **React 18.3.1**                   | Library UI untuk komponen                     |
+| **React Navigation**               | Navigasi antar layar                          |
+| **TanStack React Query v5**        | Pengelolaan data async yang efisien           |
+| **Axios**                          | Permintaan HTTP ke backend/API                |
+| **React Native Toast Message**     | Menampilkan toast notifikasi                  |
+| **React Native Element Dropdown**  | Komponen dropdown yang dapat dikustomisasi    |
+| **React Native SVG**               | Mendukung grafik vektor (SVG)                 |
+| **React Native Safe Area Context** | Menangani tampilan aman pada notch atau bezel |
+| **React Native Gesture Handler**   | Gesture yang responsif dan performa tinggi    |
+| **React Native Blur**              | Efek blur estetis pada UI                     |
+
+---
+
+## 📦 Minimum Requirements
+
+- Node.js >= 18
+- Android Studio atau Xcode (untuk testing di emulator)
+- Paket dependencies telah disediakan dalam `package-lock.json`
+
+---
+
+## 🧪 Testing
+
+Testing dilakukan dengan menggunakan **Jest** dan **React Test Renderer**. Konfigurasi unit test sudah disiapkan untuk memastikan kualitas komponen dan logika aplikasi.
+
+---
+
+## 📌 Catatan
+
+- Aplikasi ini bersifat private dan dikembangkan untuk tujuan demonstrasi kemampuan teknis dalam interview.
+
+---
+
+> Dibuat dengan ❤️ menggunakan React Native & TypeScript

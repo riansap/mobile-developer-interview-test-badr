@@ -4,6 +4,7 @@ import {QueryClient, QueryClientProvider} from '@tanstack/react-query';
 import Navigation from './src/navigation';
 import Toast from 'react-native-toast-message';
 import {toastConfig} from './src/utils/toastConfig';
+import {SafeAreaView} from 'react-native-safe-area-context';
 
 // Create a client for TanStack Query
 const queryClient = new QueryClient();
@@ -17,8 +18,10 @@ function App(): React.JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={isDarkMode ? '#000' : '#fff'}
       />
-      <Navigation />
-      <Toast position="bottom" config={toastConfig} />
+      <SafeAreaView style={{flex: 1}}>
+        <Navigation />
+        <Toast position="bottom" config={toastConfig} />
+      </SafeAreaView>
     </QueryClientProvider>
   );
 }
